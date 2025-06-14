@@ -127,7 +127,7 @@ def initialize_llm():
             api_key = st.secrets["GOOGLE_API_KEY"]
         except:
             # Fallback to the original API key if secrets not available
-            api_key = "AIzaSyBlnbPaBnmZawaV-DWMDXKgO7_kM4h0XxM"
+            api_key = "-DWMDXKgO7_kM4h0XxM"
         
         genai.configure(api_key=api_key)
         
